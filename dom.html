@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="dom.css">
+</head>
+<body>
+    <p id="text">Hello</p>
+
+    <h1>Hi Everyone</h1>
+
+    <h1 class="box">Box</h1>
+
+    <h1 id="p1">Hello!</h1> 
+    
+   <div class="card">
+        <div class="card1"></div>
+        <div class="card2"></div>
+        <div class="card3"></div>
+    </div><br>
+    <button onclick="execute()">Change Flex Direction</button>
+
+    <h1 id="heading">Hello</h1>
+
+    <p id="para">hello world</p>
+    <button onclick="change()">Replace Text</button>  
+    
+    <br><br><br>
+    <span id="HH"></span>:
+    <span id="MM"></span>:
+    <span id="SS"></span>
+    <br>
+    
+    <br><br>
+    <select id="s" onchange="select()" >
+        <option value="2020-2021">2020-2021</option>
+        <option value="2021-2022">2021-2022</option>
+    </select>
+    <input type="text" id="textvalue">
+    <br><br>
+
+    <form action="#">
+        <label for="name">     Name : </label>
+        <input id="name" type="text" placeholder="Enter your name" required><br><br>
+        <label for="email">    Email :</label>
+        <input id="email" type="text" placeholder="Enter your email" required>
+        <span id="message1"> Domain should be "@prepbytes.com" only</span><br><br>
+        <label for="phone">    Phone No:</label>
+        <input id="phone" type="number" placeholder="Enter the phone number"required>
+        <span id="message2"> Phone number should start with 91 and must be 10 digits only</span><br><br>
+        <label for="birthYear">Birth Year : </label>
+        <input id="birthYear" type="date" required>
+        <span id="message3"> Birth Year should be greater than 1995</span><br><br>
+        <button type="submit" onclick="check()">Submit</button>
+        </form>
+
+<script src="dom.js"></script>
+</body>
+</html>
